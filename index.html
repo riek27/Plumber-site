@@ -2,2602 +2,1735 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlocentraAI | AI-Powered Bitcoin Insurance & Risk Intelligence</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-    <style>
-        :root {
-            --primary-dark: #0a0a0f;
-            --secondary-dark: #10101a;
-            --accent-blue: #0066ff;
-            --accent-cyan: #00d4ff;
-            --accent-gold: #d4af37;
-            --accent-gold-light: #f4e4a9;
-            --accent-purple: #8a2be2;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0c0;
-            --gradient-primary: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
-            --gradient-gold: linear-gradient(135deg, var(--accent-gold), #ffd700);
-            --gradient-purple: linear-gradient(135deg, var(--accent-purple), #5d00ff);
-            --card-bg: rgba(25, 25, 40, 0.7);
-            --glass-bg: rgba(255, 255, 255, 0.05);
-            --border-radius: 16px;
-            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            --box-shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.4);
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Remanent Plumber | #1 Trusted Plumbing in Hamilton County, Indiana</title>
+    <meta name="description" content="Remanent Plumber – Hamilton County's most trusted plumbing company. 24/7 emergency plumbing, drain cleaning, water heater repair & more. Serving Carmel, Fishers, Noblesville, Westfield & all Hamilton County. Call now for a free quote!">
+    <meta name="keywords" content="plumber Hamilton County, plumbing services Indiana, Carmel plumber, Fishers plumber, Noblesville plumber, Westfield plumber, emergency plumber, drain cleaning, water heater repair, Remanent Plumber, licensed plumber Hamilton County">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="US-IN">
+    <meta name="geo.placename" content="Hamilton County">
+    <meta name="geo.position" content="40.0725;-86.0527">
+    <meta name="ICBM" content="40.0725, -86.0527">
+    <link rel="canonical" href="https://www.remanentplumber.com/">
+    <meta property="og:title" content="Remanent Plumber | #1 Trusted Plumbing in Hamilton County, IN">
+    <meta property="og:description" content="Expert plumbing services in Hamilton County. 24/7 emergency service, licensed & insured. Serving Carmel, Fishers, Noblesville & beyond. Get your free quote today!">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Remanent Plumber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Remanent Plumber | Hamilton County's Trusted Plumbers">
+    <meta name="twitter:description" content="Licensed & insured plumbing experts in Hamilton County, IN. 24/7 emergency service. Call now!">
 
+    <!-- Schema Markup for Local Business -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Plumber",
+            "name": "Remanent Plumber",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800",
+            "description": "Hamilton County's most trusted plumbing company offering 24/7 emergency services, drain cleaning, water heater repair, pipe replacement, and more.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123 Main Street",
+                "addressLocality": "Noblesville",
+                "addressRegion": "IN",
+                "postalCode": "46060",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 40.0725,
+                "longitude": -86.0527
+            },
+            "url": "https://www.remanentplumber.com",
+            "telephone": "+1-317-555-0198",
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+                { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens":"00:00","closes":"23:59" }
+            ],
+            "areaServed": [
+                { "@type": "City", "name": "Carmel" }, { "@type": "City", "name": "Fishers" }, { "@type": "City", "name": "Noblesville" }, { "@type": "City", "name": "Westfield" }, { "@type": "City", "name": "Cicero" }, { "@type": "City", "name": "Arcadia" }, { "@type": "City", "name": "Atlanta" }, { "@type": "City", "name": "Sheridan" }
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Plumbing Services",
+                "itemListElement": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drain Cleaning" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Water Heater Installation & Repair" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pipe Repair & Replacement" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sewer Line Services" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Plumbing" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Leak Detection" } }
+                ]
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=Playfair+Display:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        :root {
+            --navy-deep: #060e1a;
+            --navy: #0a1a3a;
+            --navy-light: #122a5c;
+            --gold: #c8963e;
+            --gold-light: #d4a853;
+            --gold-bright: #efc068;
+            --white: #ffffff;
+            --off-white: #f8f7f4;
+            --gray-100: #f5f4f1;
+            --gray-200: #e8e6e0;
+            --gray-600: #6b6560;
+            --gray-800: #2d2a26;
+            --gray-900: #1a1816;
+            --shadow-elegant: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            --transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 90px;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background-color: var(--primary-dark);
-            color: var(--text-primary);
-            line-height: 1.6;
+            background: var(--white);
+            color: var(--gray-900);
+            line-height: 1.7;
             overflow-x: hidden;
-            scroll-behavior: smooth;
-            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
         }
 
-        #three-js-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
+        /* ---------- TOP BAR ---------- */
+        .top-bar {
+            background: rgba(6, 14, 26, 0.95);
+            backdrop-filter: blur(12px);
+            color: #ccd6e0;
+            font-size: 0.78rem;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            position: relative;
+            z-index: 1002;
         }
-
-        .luxury-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at 10% 20%, rgba(15, 15, 30, 0.9) 0%, rgba(5, 5, 15, 0.95) 90%);
-            z-index: -2;
-        }
-
-        .gold-particle {
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: var(--accent-gold);
-            border-radius: 50%;
-            box-shadow: 0 0 10px 2px rgba(212, 175, 55, 0.7);
-            opacity: 0;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            padding: 25px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            background: rgba(10, 10, 15, 0.8);
-            backdrop-filter: blur(15px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            transition: var(--transition);
-        }
-
-        header.scrolled {
-            padding: 15px 0;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-            background: rgba(10, 10, 15, 0.95);
-        }
-
-        .header-container {
+        .top-bar .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .top-bar i {
+            color: var(--gold-light);
+            margin-right: 5px;
+            font-size: 0.7rem;
+        }
+        .top-bar a {
+            color: #ccd6e0;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .top-bar a:hover {
+            color: var(--gold-light);
+        }
+        .badge-licensed {
+            background: rgba(200, 150, 62, 0.18);
+            color: var(--gold-light);
+            padding: 3px 12px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.7rem;
+            letter-spacing: 0.8px;
+            border: 1px solid rgba(200, 150, 62, 0.25);
         }
 
+        /* ---------- NAVIGATION (Glass) ---------- */
+        .nav-wrapper {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: background 0.5s ease, backdrop-filter 0.5s ease, box-shadow 0.4s;
+            background: transparent;
+            backdrop-filter: blur(0px);
+            -webkit-backdrop-filter: blur(0px);
+        }
+        .nav-wrapper.scrolled {
+            background: rgba(6, 14, 26, 0.92);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .main-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            height: 72px;
+            gap: 10px;
+        }
         .logo {
             display: flex;
             align-items: center;
-            font-weight: 700;
-            font-size: 28px;
-            background: linear-gradient(to right, var(--accent-gold), var(--accent-gold-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'Playfair Display', serif;
-            letter-spacing: 0.5px;
+            gap: 10px;
+            text-decoration: none;
+            flex-shrink: 0;
         }
-
         .logo-icon {
-            margin-right: 12px;
-            color: var(--accent-gold);
-            font-size: 26px;
-        }
-
-        nav ul {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, #d4a853, #f0cc6a);
+            border-radius: 10px;
             display: flex;
-            list-style: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: #0a1a3a;
+            font-weight: 900;
+            box-shadow: 0 4px 20px rgba(212, 168, 83, 0.4);
         }
-
-        nav ul li {
-            margin-left: 28px;
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #fff;
+            line-height: 1.1;
+            letter-spacing: -0.3px;
+        }
+        .logo-text span {
+            display: block;
+            font-size: 0.6rem;
+            font-weight: 400;
+            color: var(--gold-light);
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links>li {
             position: relative;
         }
-
-        nav ul li a {
-            color: var(--text-primary);
+        .nav-links>li>a {
+            color: #f0ede6;
             text-decoration: none;
             font-weight: 500;
-            transition: var(--transition);
-            position: relative;
-            font-size: 0.95rem;
+            font-size: 0.82rem;
+            padding: 10px 14px;
+            border-radius: 8px;
+            transition: all 0.25s;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 6px;
             letter-spacing: 0.3px;
+            backdrop-filter: blur(4px);
+            cursor: pointer;
         }
-
-        nav ul li a::after {
-            content: '';
+        .nav-links>li>a:hover,
+        .nav-links>li>a.active {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 0 12px rgba(212, 168, 83, 0.2);
+        }
+        .dropdown {
             position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--gradient-gold);
-            transition: var(--transition);
-        }
-
-        nav ul li a:hover::after {
-            width: 100%;
-        }
-
-        nav ul li a:hover {
-            color: var(--accent-gold-light);
-        }
-
-        .cta-button {
-            background: var(--gradient-gold);
-            color: #000;
-            border: none;
-            padding: 14px 28px;
-            border-radius: 30px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-            letter-spacing: 0.5px;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: var(--box-shadow-hover);
-        }
-
-        .menu-toggle {
-            display: none;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 30px;
-            height: 21px;
-            cursor: pointer;
-        }
-
-        .menu-toggle span {
-            height: 3px;
-            width: 100%;
-            background-color: var(--text-primary);
-            border-radius: 3px;
-            transition: var(--transition);
-        }
-
-        .hero {
-            padding: 200px 0 150px;
-            text-align: center;
-            position: relative;
-        }
-
-        .hero h1 {
-            font-size: 4.2rem;
-            font-weight: 800;
-            margin-bottom: 24px;
-            background: linear-gradient(to right, #ffffff, var(--accent-gold-light), var(--accent-gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: gradientShift 8s ease infinite;
-            background-size: 300% 300%;
-            font-family: 'Playfair Display', serif;
-            line-height: 1.2;
-            letter-spacing: -0.5px;
-        }
-
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .hero p {
-            font-size: 1.4rem;
-            color: var(--text-secondary);
-            max-width: 800px;
-            margin: 0 auto 50px;
-            font-weight: 300;
-            line-height: 1.6;
-        }
-
-        .hero-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .secondary-button {
-            background: transparent;
-            color: var(--text-primary);
-            border: 2px solid var(--accent-gold);
-            padding: 14px 28px;
-            border-radius: 30px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition);
-        }
-
-        .secondary-button:hover {
-            background: rgba(212, 175, 55, 0.1);
-            transform: translateY(-3px);
-        }
-
-        .demo-button {
-            background: var(--gradient-purple);
-            color: white;
-            border: none;
-            padding: 14px 28px;
-            border-radius: 30px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition);
-            box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
-        }
-
-        .demo-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(138, 43, 226, 0.4);
-        }
-
-        .bitcoin-animation {
-            margin-top: 100px;
-            position: relative;
-            height: 300px;
-        }
-
-        .floating-btc {
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            background: var(--gradient-gold);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: black;
-            font-weight: bold;
-            box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
-            animation: float 6s ease-in-out infinite;
-            cursor: pointer;
-            transition: var(--transition);
-            font-size: 24px;
-        }
-
-        .floating-btc:hover {
-            transform: scale(1.2);
-            box-shadow: 0 0 35px rgba(212, 175, 55, 0.8);
-        }
-
-        .floating-btc:nth-child(1) {
-            top: 20%;
-            left: 15%;
-            animation-delay: 0s;
-            width: 50px;
-            height: 50px;
-        }
-
-        .floating-btc:nth-child(2) {
-            top: 10%;
+            top: 100%;
             left: 50%;
-            animation-delay: 1s;
-            width: 70px;
-            height: 70px;
-        }
-
-        .floating-btc:nth-child(3) {
-            top: 30%;
-            left: 80%;
-            animation-delay: 2s;
-            width: 45px;
-            height: 45px;
-        }
-
-        .floating-btc:nth-child(4) {
-            top: 60%;
-            left: 10%;
-            animation-delay: 3s;
-            width: 55px;
-            height: 55px;
-        }
-
-        .floating-btc:nth-child(5) {
-            top: 70%;
-            left: 70%;
-            animation-delay: 4s;
-            width: 65px;
-            height: 65px;
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-25px) rotate(10deg); }
-            100% { transform: translateY(0) rotate(0deg); }
-        }
-
-        section {
-            padding: 120px 0;
-            position: relative;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 80px;
-        }
-
-        .section-title h2 {
-            font-size: 3.2rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .section-title p {
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto;
-            font-size: 1.2rem;
-            font-weight: 300;
-        }
-
-        .problem-stats {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-bottom: 60px;
-        }
-
-        .stat-card {
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: var(--border-radius);
-            text-align: center;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            width: 300px;
-            position: relative;
+            transform: translateX(-50%) translateY(12px);
+            background: #fff;
+            border-radius: 16px;
+            min-width: 260px;
+            box-shadow: 0 30px 50px rgba(0, 0, 0, 0.25);
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: all 0.35s ease;
+            z-index: 100;
             overflow: hidden;
-            box-shadow: var(--box-shadow);
+            border: 1px solid rgba(0, 0, 0, 0.04);
         }
-
-        .stat-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: var(--gradient-gold);
+        .nav-links>li:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transform: translateX(-50%) translateY(0);
         }
-
-        .stat-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow-hover);
+        .dropdown a {
+            display: block;
+            padding: 13px 20px;
+            color: #2d2a26;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            border-bottom: 1px solid #f0ede8;
         }
-
-        .stat-number {
-            font-size: 3.2rem;
-            font-weight: 800;
-            color: var(--accent-gold);
-            margin-bottom: 15px;
-        }
-
-        .stat-text {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-
-        .risk-visualization {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-top: 60px;
-        }
-
-        .risk-item {
-            background: var(--glass-bg);
-            padding: 30px;
-            border-radius: var(--border-radius);
-            width: 240px;
-            text-align: center;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-        }
-
-        .risk-item:hover {
-            transform: translateY(-8px);
-            border-color: var(--accent-gold);
-            box-shadow: var(--box-shadow-hover);
-        }
-
-        .risk-icon {
-            font-size: 2.5rem;
-            color: var(--accent-gold);
-            margin-bottom: 25px;
-        }
-
-        .solutions-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 40px;
-        }
-
-        .solution-card {
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: var(--border-radius);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
-        }
-
-        .solution-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: var(--gradient-gold);
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform 0.5s ease;
-        }
-
-        .solution-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .solution-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow-hover);
-            border-color: var(--accent-gold);
-        }
-
-        .solution-icon {
-            font-size: 3rem;
-            margin-bottom: 30px;
-            color: var(--accent-gold);
-        }
-
-        .solution-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
-
-        .solution-card p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .process-flow {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 80px 0;
-            flex-wrap: wrap;
-        }
-
-        .process-step {
-            text-align: center;
-            padding: 30px;
-            position: relative;
-            width: 240px;
-        }
-
-        .process-step:not(:last-child)::after {
-            content: "→";
-            position: absolute;
-            right: -15px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 2.5rem;
-            color: var(--accent-gold);
-        }
-
-        .step-icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: var(--gradient-gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 30px;
-            font-size: 2.5rem;
-            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
-            color: #000;
-        }
-
-        .process-tagline {
-            text-align: center;
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin-top: 60px;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            padding: 25px;
-            border-radius: var(--border-radius);
-            background-color: rgba(212, 175, 55, 0.1);
-            border: 1px solid rgba(212, 175, 55, 0.2);
-            font-family: 'Playfair Display', serif;
-        }
-
-        .customers-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-        }
-
-        .customer-card {
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: var(--border-radius);
-            text-align: center;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
-        }
-
-        .customer-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: var(--gradient-gold);
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform 0.5s ease;
-            z-index: 1;
-        }
-
-        .customer-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .customer-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: var(--box-shadow-hover);
-            border-color: var(--accent-gold);
-        }
-
-        .customer-icon {
-            font-size: 3rem;
-            margin-bottom: 30px;
-            color: var(--accent-gold);
-        }
-
-        .market-stats {
-            text-align: center;
-            margin: 80px 0;
-        }
-
-        .big-stat {
-            font-size: 5rem;
-            font-weight: 800;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 30px;
-            text-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
-            font-family: 'Playfair Display', serif;
-        }
-
-        .revenue-chart {
-            width: 100%;
-            height: 400px;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            margin: 60px 0;
-            padding: 30px;
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-around;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: var(--box-shadow);
-        }
-
-        .chart-bar {
-            width: 80px;
-            background: var(--gradient-gold);
-            border-radius: 8px 8px 0 0;
-            position: relative;
-            transition: var(--transition);
-            cursor: pointer;
-        }
-
-        .chart-bar:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.5);
-        }
-
-        .chart-label {
-            position: absolute;
-            bottom: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 1rem;
-            color: var(--text-secondary);
-        }
-
-        .chart-value {
-            position: absolute;
-            top: -45px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-weight: 600;
-            color: var(--accent-gold);
-        }
-
-        .comparison-container {
-            overflow-x: auto;
-            margin: 50px 0;
-            padding-bottom: 20px;
-        }
-
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            min-width: 800px;
-            box-shadow: var(--box-shadow);
-        }
-
-        .comparison-table th, .comparison-table td {
-            padding: 25px;
-            text-align: left;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .comparison-table th {
-            background: rgba(212, 175, 55, 0.2);
-            font-weight: 600;
-            font-size: 1.1rem;
-        }
-
-        .comparison-table tr:last-child td {
+        .dropdown a:last-child {
             border-bottom: none;
         }
-
-        .comparison-table tr:hover {
-            background: rgba(255, 255, 255, 0.03);
-        }
-
-        .checkmark {
-            color: #00ff8c;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-
-        .x-mark {
-            color: #ff3366;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-
-        .timeline {
-            position: relative;
-            max-width: 1000px;
-            margin: 80px auto;
-        }
-
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 8px;
-            background: var(--gradient-gold);
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -4px;
-            border-radius: 10px;
-        }
-
-        .timeline-item {
-            padding: 20px 50px;
-            position: relative;
-            width: 50%;
-            box-sizing: border-box;
-        }
-
-        .timeline-item:nth-child(odd) {
-            left: 0;
-        }
-
-        .timeline-item:nth-child(even) {
-            left: 50%;
-        }
-
-        .timeline-item::after {
-            content: '';
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            background: var(--accent-gold);
-            border: 5px solid var(--primary-dark);
-            top: 30px;
-            border-radius: 50%;
-            z-index: 1;
-            box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
-        }
-
-        .timeline-item:nth-child(odd)::after {
-            right: -17px;
-            left: auto;
-        }
-
-        .timeline-item:nth-child(even)::after {
-            left: -17px;
-        }
-
-        .timeline-content {
-            padding: 30px;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-        }
-
-        .timeline-content:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--box-shadow-hover);
-        }
-
-        .timeline-date {
+        .dropdown a:hover {
+            background: #faf8f5;
+            color: #0a1a3a;
+            padding-left: 26px;
             font-weight: 600;
-            color: var(--accent-gold);
-            margin-bottom: 20px;
-            font-size: 1.2rem;
+        }
+        .nav-phone {
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.06);
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+        .nav-phone i {
+            color: var(--gold-light);
+        }
+        .btn-nav-quote {
+            background: linear-gradient(135deg, #d4a853, #efc068);
+            color: #060e1a;
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 0.82rem;
+            letter-spacing: 0.4px;
+            transition: var(--transition);
+            box-shadow: 0 6px 20px rgba(200, 150, 62, 0.4);
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .btn-nav-quote:hover {
+            background: linear-gradient(135deg, #efc068, #f7d68a);
+            box-shadow: 0 10px 28px rgba(200, 150, 62, 0.55);
+            transform: translateY(-2px);
+        }
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1002;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2.5px;
+            background: #fff;
+            margin: 6px 0;
+            border-radius: 3px;
+            transition: 0.3s;
         }
 
-        .waitlist-section {
-            background: var(--secondary-dark);
-            border-radius: var(--border-radius);
-            padding: 100px 0;
-            margin: 100px 0;
+        /* ---------- HERO ---------- */
+        .hero {
             position: relative;
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1800&q=85') center/cover no-repeat;
+            margin-top: -72px;
+            padding-top: 72px;
         }
-
-        .waitlist-section::before {
+        .hero::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(6, 14, 26, 0.55) 0%, rgba(10, 26, 58, 0.45) 40%, rgba(6, 14, 26, 0.6) 100%);
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 850px;
+            padding: 40px 30px;
+            animation: fadeUp 1s ease-out;
+        }
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(212, 168, 83, 0.18);
+            border: 1px solid rgba(212, 168, 83, 0.4);
+            color: #f0cc6a;
+            padding: 8px 22px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 1.2px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.2rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.1;
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .gold-text {
+            color: #efc068;
+        }
+        .sub-text {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 34px;
+            max-width: 620px;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 18px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-hero-primary {
+            background: linear-gradient(135deg, #d4a853, #f0cc6a);
+            color: #0a1a3a;
+            font-weight: 700;
+            padding: 16px 34px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: var(--transition);
+            box-shadow: 0 10px 30px rgba(212, 168, 83, 0.45);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-hero-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 40px rgba(212, 168, 83, 0.6);
+        }
+        .btn-hero-secondary {
+            background: transparent;
+            color: #fff;
+            font-weight: 600;
+            padding: 16px 34px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.05rem;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .btn-hero-secondary:hover {
+            border-color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-4px);
+        }
+        .hero-scroll {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            color: #fff;
+            font-size: 1.8rem;
+            opacity: 0.7;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%,
+            100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            50% {
+                transform: translateX(-50%) translateY(15px);
+            }
+        }
+
+        /* ---------- CONTAINER & SECTIONS ---------- */
+        .container {
+            max-width: 1220px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+        .section {
+            padding: 100px 0;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .overline {
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: #c8963e;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #0a1a3a;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        .section-header p {
+            color: #6b6560;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section-header.light h2 {
+            color: #fff;
+        }
+        .section-header.light p {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        /* ---------- ABOUT ---------- */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .about-image-wrapper {
+            position: relative;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: var(--shadow-elegant);
+        }
+        .about-image-wrapper img {
+            width: 100%;
+            height: 520px;
+            object-fit: cover;
+            transition: 0.6s ease;
+            display: block;
+        }
+        .about-image-wrapper:hover img {
+            transform: scale(1.04);
+        }
+        .about-badge {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            background: #d4a853;
+            color: #0a1a3a;
+            padding: 12px 22px;
+            border-radius: 30px;
+            font-weight: 700;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .about-content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #0a1a3a;
+            margin-bottom: 18px;
+        }
+        .about-content p {
+            color: var(--gray-600);
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+        .about-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 24px;
+        }
+        .feature-chip {
+            background: #fff;
+            border: 1px solid #e0dcd5;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            color: #0a1a3a;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            transition: var(--transition);
+        }
+        .feature-chip i {
+            color: var(--gold);
+        }
+        .feature-chip:hover {
+            border-color: var(--gold);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        /* ---------- TRUST SCROLL ---------- */
+        .trust-section {
+            background: #fff;
+            padding: 40px 0;
+            overflow: hidden;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        .trust-track {
+            display: flex;
+            gap: 60px;
+            animation: scrollLeft 35s linear infinite;
+            width: max-content;
+        }
+        @keyframes scrollLeft {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: #fafaf8;
+            padding: 18px 30px;
+            border-radius: 16px;
+            border: 1px solid #eee;
+            white-space: nowrap;
+            font-weight: 600;
+            color: #0a1a3a;
+            transition: var(--transition);
+        }
+        .trust-item i {
+            color: var(--gold);
+            font-size: 1.4rem;
+        }
+        .trust-item:hover {
+            border-color: var(--gold-light);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        /* ---------- SERVICES ---------- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+            transition: var(--transition);
+            border: 1px solid #f0ede8;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.12);
+        }
+        .service-card-img {
+            height: 230px;
+            overflow: hidden;
+        }
+        .service-card-img img {
             width: 100%;
             height: 100%;
-            background: var(--gradient-gold);
-            opacity: 0.03;
-            z-index: -1;
+            object-fit: cover;
+            transition: 0.5s;
         }
-
-        .form-container {
-            max-width: 650px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 50px;
-            border-radius: var(--border-radius);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: var(--box-shadow);
+        .service-card:hover .service-card-img img {
+            transform: scale(1.07);
         }
-
-        .form-title {
-            text-align: center;
-            margin-bottom: 40px;
+        .service-card-body {
+            padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
         }
-
-        .form-title h3 {
-            font-size: 2.2rem;
-            margin-bottom: 20px;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'Playfair Display', serif;
+        .service-card-body h4 {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #0a1a3a;
+            margin-bottom: 10px;
         }
-
-        .form-group {
-            margin-bottom: 30px;
+        .service-card-body p {
+            color: var(--gray-600);
+            flex: 1;
+            margin-bottom: 16px;
         }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 12px;
-            font-weight: 500;
-            color: var(--text-primary);
-        }
-
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 18px;
-            border-radius: 8px;
-            background: rgba(10, 10, 15, 0.6);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
+        .btn-service-quote {
+            background: #0a1a3a;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
             transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            align-self: flex-start;
+        }
+        .btn-service-quote:hover {
+            background: #122a5c;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .btn-center-wrapper {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn-outline-gold {
+            border: 2px solid #c8963e;
+            color: #0a1a3a;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent;
+            cursor: pointer;
+        }
+        .btn-outline-gold:hover {
+            background: #c8963e;
+            color: #fff;
+            box-shadow: 0 8px 20px rgba(200, 150, 62, 0.3);
+        }
+
+        /* ---------- PROJECTS ---------- */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .project-card {
+            border-radius: 20px;
+            overflow: hidden;
+            height: 280px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+            transition: var(--transition);
+        }
+        .project-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+        .project-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, transparent 60%);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+            color: #fff;
+            font-weight: 600;
             font-size: 1rem;
         }
 
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--accent-gold);
-            box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
-        }
-
-        .form-submit {
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        .cta-section {
-            text-align: center;
-            padding: 120px 0;
-            background: var(--secondary-dark);
-            border-radius: var(--border-radius);
-            margin: 100px 0;
+        /* ---------- SERVICE AREAS ---------- */
+        .areas-section {
+            background: url('https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=1800&q=80') center/cover no-repeat;
             position: relative;
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
+            padding: 100px 0;
         }
-
-        .cta-section::before {
+        .areas-section::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: var(--gradient-gold);
-            opacity: 0.03;
-            z-index: -1;
+            inset: 0;
+            background: rgba(10, 26, 58, 0.85);
+            z-index: 1;
         }
-
-        .cta-section h2 {
-            font-size: 3.2rem;
-            margin-bottom: 30px;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .cta-section p {
-            max-width: 700px;
-            margin: 0 auto 50px;
-            color: var(--text-secondary);
-            font-size: 1.2rem;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
-
-        footer {
-            background: var(--secondary-dark);
-            padding: 100px 0 50px;
+        .areas-section .container {
             position: relative;
+            z-index: 2;
         }
-
-        .footer-content {
+        .areas-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 60px;
-            margin-bottom: 60px;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 16px;
+            margin-top: 30px;
         }
-
-        .footer-column h3 {
-            font-size: 1.4rem;
-            margin-bottom: 30px;
-            color: var(--accent-gold);
-            font-family: 'Playfair Display', serif;
-        }
-
-        .footer-column p, .footer-column a {
-            color: var(--text-secondary);
-            margin-bottom: 18px;
-            display: block;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .footer-column a:hover {
-            color: var(--accent-gold);
-            transform: translateX(5px);
-        }
-
-        .social-links {
-            display: flex;
-            gap: 15px;
-            margin-top: 25px;
-            flex-wrap: wrap;
-        }
-
-        .social-links a {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: var(--card-bg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-        }
-
-        .social-links a:hover {
-            background: var(--gradient-gold);
-            transform: translateY(-5px);
-            box-shadow: var(--box-shadow-hover);
-        }
-
-        .copyright {
-            text-align: center;
-            padding-top: 50px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text-secondary);
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-            gap: 35px;
-        }
-
-        .feature-card {
-            background: var(--card-bg);
-            padding: 35px;
-            border-radius: var(--border-radius);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            position: relative;
-            overflow: hidden;
-            box-shadow: var(--box-shadow);
-        }
-
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: var(--gradient-gold);
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform 0.5s ease;
-        }
-
-        .feature-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow-hover);
-            border-color: var(--accent-gold);
-        }
-
-        .feature-icon {
-            font-size: 2.8rem;
-            margin-bottom: 25px;
-            color: var(--accent-gold);
-        }
-
-        .revenue-model {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-            gap: 35px;
-            margin-top: 60px;
-        }
-
-        .revenue-card {
-            background: var(--card-bg);
-            padding: 35px;
-            border-radius: var(--border-radius);
-            text-align: center;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-        }
-
-        .revenue-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow-hover);
-            border-color: var(--accent-gold);
-        }
-
-        .revenue-icon {
-            font-size: 2.8rem;
-            margin-bottom: 25px;
-            color: var(--accent-gold);
-        }
-
-        .revenue-percentage {
-            font-size: 2.8rem;
-            font-weight: 700;
-            margin: 20px 0;
-            background: var(--gradient-gold);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 35px;
-        }
-
-        .team-card {
-            background: var(--card-bg);
-            padding: 35px;
-            border-radius: var(--border-radius);
-            text-align: center;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: var(--transition);
-            box-shadow: var(--box-shadow);
-        }
-
-        .team-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow-hover);
-            border-color: var(--accent-gold);
-        }
-
-        .team-image {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 25px;
-            border: 3px solid var(--accent-gold);
-            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
-        }
-
-        .team-name {
-            font-size: 1.5rem;
-            margin-bottom: 12px;
-            font-weight: 600;
-        }
-
-        .team-role {
-            color: var(--accent-gold);
-            margin-bottom: 18px;
-            font-weight: 500;
-        }
-
-        .team-social {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 25px;
-        }
-
-        .team-social a {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
+        .area-chip {
             background: rgba(255, 255, 255, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            color: #fff;
+            padding: 14px;
+            border-radius: 14px;
+            text-align: center;
+            font-weight: 500;
+            backdrop-filter: blur(8px);
             transition: var(--transition);
+            cursor: default;
+        }
+        .area-chip i {
+            margin-right: 6px;
+            color: #efc068;
+        }
+        .area-chip:hover {
+            background: rgba(212, 168, 83, 0.25);
+            border-color: #efc068;
+            transform: translateY(-3px);
         }
 
-        .team-social a:hover {
-            background: var(--gradient-gold);
-            transform: translateY(-5px);
+        /* ---------- WHY CHOOSE US ---------- */
+        .why-us-section {
+            background: #0a1a3a;
+            padding: 100px 0;
         }
-
-        .faq-container {
-            max-width: 850px;
-            margin: 0 auto;
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
         }
-
-        .faq-item {
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            margin-bottom: 25px;
-            overflow: hidden;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: var(--box-shadow);
-        }
-
-        .faq-question {
+        .why-card {
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 20px;
             padding: 30px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.1);
             transition: var(--transition);
+            backdrop-filter: blur(10px);
+        }
+        .why-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(212, 168, 83, 0.5);
+            background: rgba(255, 255, 255, 0.07);
+        }
+        .why-icon {
+            font-size: 2.2rem;
+            color: #efc068;
+            margin-bottom: 16px;
+        }
+        .why-card h4 {
+            font-weight: 700;
+            margin-bottom: 8px;
             font-size: 1.1rem;
         }
-
-        .faq-question:hover {
-            background: rgba(255, 255, 255, 0.05);
+        .why-card p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
         }
 
-        .faq-question i {
+        /* ---------- TESTIMONIALS ---------- */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+        .testimonial-card {
+            background: #f8f7f4;
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid #eee;
             transition: var(--transition);
         }
+        .testimonial-card:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+        }
+        .stars {
+            color: #c8963e;
+            margin-bottom: 12px;
+        }
+        .testimonial-card p {
+            color: var(--gray-600);
+            font-style: italic;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .author {
+            font-weight: 700;
+            color: #0a1a3a;
+        }
+        .author-location {
+            font-size: 0.8rem;
+            color: var(--gray-600);
+        }
 
-        .faq-answer {
-            padding: 0 30px;
-            max-height: 0;
+        /* ---------- FAQS ---------- */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 14px;
+            margin-bottom: 10px;
+            border: 1px solid #eee;
             overflow: hidden;
-            transition: max-height 0.3s ease, padding 0.3s ease;
+            transition: var(--transition);
         }
-
-        .faq-item.active .faq-question i {
-            transform: rotate(180deg);
+        .faq-item:hover {
+            border-color: #d4c8a8;
         }
-
-        .faq-item.active .faq-answer {
-            padding: 0 30px 30px;
-            max-height: 300px;
-        }
-
-        .thank-you-message {
-            display: none;
-            text-align: center;
-            padding: 50px;
-            background: var(--card-bg);
-            border-radius: var(--border-radius);
-            margin: 30px 0;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(212, 175, 55, 0.2);
-            box-shadow: var(--box-shadow);
-        }
-
-        .thank-you-icon {
-            font-size: 4.5rem;
-            color: var(--accent-gold);
-            margin-bottom: 30px;
-        }
-
-        /* Chatbot Widget Styles */
-        .chatbot-container {
-            position: fixed;
-            bottom: 100px;
-            right: 30px;
-            width: 380px;
-            height: 500px;
-            background: var(--card-bg);
-            border-radius: 20px;
-            box-shadow: var(--box-shadow-hover);
-            display: none;
-            flex-direction: column;
-            z-index: 1000;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            overflow: hidden;
-        }
-
-        .chatbot-header {
-            background: var(--gradient-gold);
-            color: #000;
-            padding: 20px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
+        .faq-question {
+            padding: 18px 22px;
+            font-weight: 600;
+            cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            color: #0a1a3a;
+            transition: var(--transition);
+        }
+        .faq-question i {
+            color: #c8963e;
+            transition: 0.3s;
+        }
+        .faq-item.open .faq-question i {
+            transform: rotate(45deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            padding: 0 22px;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 200px;
+            padding-bottom: 18px;
+        }
+        .faq-answer p {
+            color: var(--gray-600);
+            line-height: 1.7;
+        }
+
+        /* ---------- BLOG ---------- */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+        .blog-card {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            background: #fff;
+            border: 1px solid #eee;
+        }
+        .blog-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-card-body {
+            padding: 20px;
+        }
+        .blog-date {
+            font-size: 0.75rem;
+            color: #c8963e;
             font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
-
-        .close-chatbot {
-            cursor: pointer;
-            font-size: 24px;
-            transition: var(--transition);
-        }
-
-        .close-chatbot:hover {
-            transform: rotate(90deg);
-        }
-
-        .chatbot-messages {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .message {
-            max-width: 80%;
-            padding: 15px 20px;
-            border-radius: 18px;
-            margin-bottom: 10px;
-        }
-
-        .bot-message {
-            align-self: flex-start;
-            background: rgba(212, 175, 55, 0.15);
-            border-bottom-left-radius: 5px;
-        }
-
-        .user-message {
-            align-self: flex-end;
-            background: rgba(0, 212, 255, 0.15);
-            border-bottom-right-radius: 5px;
-        }
-
-        .chatbot-input {
-            display: flex;
-            padding: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .chatbot-input input {
-            flex: 1;
-            padding: 15px;
-            border-radius: 25px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(10, 10, 15, 0.6);
-            color: var(--text-primary);
-            outline: none;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .chatbot-input button {
-            margin-left: 12px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: none;
-            background: var(--gradient-gold);
-            color: #000;
-            cursor: pointer;
-            transition: transform 0.2s;
-            font-size: 18px;
-        }
-
-        .chatbot-input button:hover {
-            transform: scale(1.05);
-        }
-
-        .chatbot-widget {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            background: var(--gradient-gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #000;
-            font-size: 1.8rem;
-            cursor: pointer;
-            box-shadow: var(--box-shadow-hover);
-            transition: var(--transition);
-            z-index: 999;
-        }
-
-        .chatbot-widget:hover {
-            transform: scale(1.1) rotate(10deg);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .fade-in {
-            animation: fadeIn 1s ease forwards;
-        }
-
-        /* 3D Bitcoin model container */
-        .bitcoin-model {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 300px;
-            height: 300px;
-            z-index: -1;
-        }
-
-        /* Luxury divider */
-        .luxury-divider {
-            height: 1px;
-            background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
-            margin: 60px 0;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Premium badge */
-        .premium-badge {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-            background: var(--gradient-gold);
-            color: #000;
-            padding: 8px 15px;
-            border-radius: 30px;
+        .blog-card-body h4 {
             font-weight: 700;
-            font-size: 0.8rem;
-            transform: rotate(5deg);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 8px 0;
+            color: #0a1a3a;
+            font-size: 1rem;
+        }
+        .blog-card-body p {
+            color: var(--gray-600);
+            font-size: 0.85rem;
         }
 
-        /* Enhanced scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
+        /* ---------- CONTACT ---------- */
+        .contact-section {
+            background: #060e1a;
+            color: #fff;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+        .contact-info h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 24px;
+            line-height: 1.8;
+        }
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+        .contact-detail i {
+            color: #efc068;
+            font-size: 1.2rem;
+            margin-top: 4px;
+            width: 24px;
+            text-align: center;
+        }
+        .contact-detail strong {
+            display: block;
+            color: #fff;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .contact-detail span {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 0.9rem;
+        }
+        .contact-form {
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 14px 16px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.06);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            outline: none;
+            border-color: #d4a853;
+            box-shadow: 0 0 0 3px rgba(200, 150, 62, 0.1);
+        }
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        .contact-form button {
+            background: linear-gradient(135deg, #d4a853, #efc068);
+            color: #060e1a;
+            font-weight: 700;
+            padding: 16px;
+            border: none;
+            border-radius: 50px;
+            width: 100%;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .contact-form button:hover {
+            box-shadow: 0 10px 25px rgba(200, 150, 62, 0.4);
+            transform: translateY(-2px);
         }
 
-        ::-webkit-scrollbar-track {
-            background: var(--primary-dark);
+        /* ---------- FOOTER ---------- */
+        .footer {
+            background: #040a14;
+            color: rgba(255, 255, 255, 0.5);
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        .footer a {
+            color: #d4a853;
+            text-decoration: none;
+        }
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
         }
 
-        ::-webkit-scrollbar-thumb {
-            background: var(--accent-gold);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--accent-gold-light);
-        }
-
-        @media (max-width: 1200px) {
-            .hero h1 {
-                font-size: 3.5rem;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .hero h1 {
-                font-size: 3rem;
-            }
-            
-            .menu-toggle {
-                display: flex;
-            }
-            
-            nav {
+        /* ---------- RESPONSIVE ---------- */
+        @media (max-width: 1100px) {
+            .nav-links {
                 position: fixed;
-                top: 90px;
-                left: -100%;
-                width: 100%;
-                height: calc(100vh - 90px);
-                background: var(--primary-dark);
-                transition: var(--transition);
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background: #060e1a;
+                flex-direction: column;
+                padding: 100px 30px;
+                transition: 0.4s;
+                gap: 6px;
                 z-index: 999;
-                overflow-y: auto;
             }
-            
-            nav.active {
-                left: 0;
+            .nav-links.active {
+                right: 0;
             }
-            
-            nav ul {
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: center;
-                height: auto;
-                padding: 50px 0;
+            .hamburger {
+                display: block;
             }
-            
-            nav ul li {
-                margin: 20px 0;
+            .dropdown {
+                position: static;
+                transform: none;
+                opacity: 1;
+                visibility: visible;
+                pointer-events: auto;
+                box-shadow: none;
+                background: rgba(255, 255, 255, 0.04);
+                border: none;
+                margin-left: 20px;
+                display: none;
+                min-width: auto;
             }
-            
-            .process-step:not(:last-child)::after {
-                content: "↓";
-                right: 50%;
-                top: auto;
-                bottom: -30px;
-                transform: translateX(50%);
+            .nav-links>li.open .dropdown {
+                display: block;
             }
-            
-            .timeline::after {
-                left: 31px;
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
             }
-            
-            .timeline-item {
-                width: 100%;
-                padding-left: 80px;
-                padding-right: 25px;
+            .projects-grid,
+            .testimonials-grid,
+            .blog-grid {
+                grid-template-columns: 1fr 1fr;
             }
-            
-            .timeline-item:nth-child(even) {
-                left: 0;
-            }
-            
-            .timeline-item::after {
-                left: 20px;
-            }
-            
-            .timeline-item:nth-child(odd)::after {
-                right: auto;
-                left: 20px;
-            }
-
-            .chatbot-container {
-                width: 340px;
-                right: 20px;
+            .hero h1 {
+                font-size: 2.6rem;
             }
         }
-
         @media (max-width: 768px) {
-            .header-container {
-                flex-direction: row;
-            }
-            
-            nav ul {
-                margin-top: 0;
-            }
-            
-            nav ul li {
-                margin: 15px 0;
-            }
-            
-            .hero {
-                padding: 170px 0 100px;
-            }
-            
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-            
-            .hero p {
-                font-size: 1.2rem;
-            }
-            
-            .hero-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .problem-stats {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .stat-card {
-                margin: 15px 0;
-            }
-            
-            .big-stat {
-                font-size: 3.5rem;
-            }
-            
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .section-title h2 {
-                font-size: 2.5rem;
-            }
-            
-            .form-container {
-                padding: 30px;
-            }
-            
-            .revenue-chart {
-                flex-direction: column;
-                height: auto;
-                align-items: center;
-                padding: 30px 20px;
-            }
-            
-            .chart-bar {
-                width: 100%;
-                max-width: 200px;
-                height: 40px !important;
-                margin-bottom: 50px;
-                border-radius: 8px;
-            }
-            
-            .chart-value {
-                top: -35px;
-            }
-
-            .chatbot-container {
-                width: 90%;
-                right: 5%;
-                bottom: 80px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-            
-            .floating-btc {
-                width: 45px;
-                height: 45px;
-                font-size: 1.2rem;
-            }
-            
-            .stat-number {
-                font-size: 2.5rem;
-            }
-            
-            .waitlist-section {
-                padding: 80px 0;
-            }
-            
-            .team-grid,
-            .features-grid,
-            .revenue-model {
+            .projects-grid,
+            .testimonials-grid,
+            .blog-grid {
                 grid-template-columns: 1fr;
             }
-
-            .chatbot-container {
-                height: 450px;
+            .hero h1 {
+                font-size: 2rem;
             }
-            
-            .section-title h2 {
-                font-size: 2.2rem;
+            .section-header h2 {
+                font-size: 2rem;
+            }
+            .section {
+                padding: 60px 0;
             }
         }
     </style>
 </head>
 <body>
-    <div class="luxury-bg"></div>
-    <div id="three-js-container"></div>
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div>
+                <i class="fa-solid fa-location-dot"></i> Hamilton County, Indiana
+                <span class="badge-licensed"><i class="fa-solid fa-shield-halved"></i> Licensed & Insured</span>
+            </div>
+            <div>
+                <a href="tel:+13175550198"><i class="fa-solid fa-phone"></i> (317) 555-0198</a>
+                <span style="margin: 0 6px;">|</span> 24/7 Emergency Service
+            </div>
+        </div>
+    </div>
 
-    <header>
-        <div class="container header-container">
-            <div class="logo">
-                <i class="fas fa-shield-alt logo-icon"></i>
-                BlocentraAI
-            </div>
-            <div class="menu-toggle" id="menuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav id="mainNav">
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#solution">Solution</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#business-model">Business Model</a></li>
-                    <li><a href="#customers">Customers</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#roadmap">Roadmap</a></li>
+    <!-- NAVIGATION -->
+    <div class="nav-wrapper" id="navWrapper">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-wrench"></i></div>
+                    <div class="logo-text">Remanent<span>Plumber</span></div>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a href="#services">Services <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <a href="#services"><i class="fa-solid fa-droplet"></i> Drain Cleaning</a>
+                            <a href="#services"><i class="fa-solid fa-fire"></i> Water Heater Installation & Repair</a>
+                            <a href="#services"><i class="fa-solid fa-pipe"></i> Pipe Repair & Replacement</a>
+                            <a href="#services"><i class="fa-solid fa-road"></i> Sewer Line Services</a>
+                            <a href="#services"><i class="fa-solid fa-bell"></i> Emergency Plumbing</a>
+                            <a href="#services"><i class="fa-solid fa-magnifying-glass-water"></i> Leak Detection</a>
+                        </div>
+                    </li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#faqs">FAQs</a></li>
-                    <li><a href="#waitlist">Waitlist</a></li>
+                    <li>
+                        <a href="#areas">Service Areas <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Carmel, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Fishers, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Noblesville, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Westfield, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Cicero, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Arcadia, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Atlanta, IN</a>
+                            <a href="#areas"><i class="fa-solid fa-city"></i> Sheridan, IN</a>
+                        </div>
+                    </li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+                <a href="tel:+13175550198" class="nav-phone"><i class="fa-solid fa-phone-volume"></i> (317) 555-0198</a>
+                <a href="#contact" class="btn-nav-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
             </nav>
-            <button class="cta-button" id="headerCta">Get Early Access</button>
         </div>
-    </header>
+    </div>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Securing the Future of Bitcoin — with AI, Insurance & Yield</h1>
-            <p>BlocentraAI transforms idle BTC into a safe, insured, and intelligent financial asset.</p>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">🏆 Hamilton County's #1 Trusted Plumber</div>
+            <h1>Expert <span class="gold-text">Plumbing</span> You Can Rely On</h1>
+            <p class="sub-text">Serving Hamilton County, Indiana with pride. From emergency repairs to full installations — our licensed team delivers quality craftsmanship, 24/7 availability, and upfront pricing. Your peace of mind starts here.</p>
             <div class="hero-buttons">
-                <button class="cta-button" id="heroCta">Get Early Access</button>
-                <a href="https://riek27.github.io/blocentraAIdemo/" target="_blank" class="demo-button">View MVP Demo</a>
-                <a href="https://riek27.github.io/whitepaper/" target="_blank" class="secondary-button">View Whitepaper</a>
-            </div>
-            <div class="bitcoin-animation">
-                <div class="floating-btc">₿</div>
-                <div class="floating-btc">₿</div>
-                <div class="floating-btc">₿</div>
-                <div class="floating-btc">₿</div>
-                <div class="floating-btc">₿</div>
+                <a href="tel:+13175550198" class="btn-hero-primary"><i class="fa-solid fa-phone"></i> Call Us Now</a>
+                <a href="#contact" class="btn-hero-secondary"><i class="fa-solid fa-file-invoice"></i> Get a Free Quote</a>
             </div>
         </div>
+        <div class="hero-scroll"><i class="fa-solid fa-chevron-down"></i></div>
     </section>
 
-    <section>
+    <!-- ABOUT -->
+    <section class="section" id="about">
         <div class="container">
-            <div class="section-title">
-                <h2>The Bitcoin Protection Problem</h2>
-                <p>Despite Bitcoin's massive valuation, it remains underprotected and underutilized in the modern financial ecosystem</p>
+            <div class="section-header">
+                <span class="overline">About Our Company</span>
+                <h2>Hamilton County's Plumbing Legacy</h2>
+                <p>Built on trust, integrity, and over 25 years of experience serving Indiana families and businesses.</p>
             </div>
-            <div class="problem-stats">
-                <div class="stat-card">
-                    <div class="stat-number">99%</div>
-                    <div class="stat-text">of Bitcoin sits idle with no protection or yield</div>
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80" alt="Remanent Plumber Team - Professional plumbers in Hamilton County" loading="lazy">
+                    <div class="about-badge"><i class="fa-solid fa-star"></i> 25+ Years Experience</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">$2.1+T</div>
-                    <div class="stat-text">market cap with no native insurance standard</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">$Billions</div>
-                    <div class="stat-text">lost annually to hacks and exploits</div>
-                </div>
-            </div>
-            <div class="risk-visualization">
-                <div class="risk-item">
-                    <div class="risk-icon"><i class="fas fa-user-secret"></i></div>
-                    <h3>Wallet Breaches</h3>
-                </div>
-                <div class="risk-item">
-                    <div class="risk-icon"><i class="fas fa-bridge"></i></div>
-                    <h3>Bridge Exploits</h3>
-                </div>
-                <div class="risk-item">
-                    <div class="risk-icon"><i class="fas fa-file-contract"></i></div>
-                    <h3>Smart Contract Risks</h3>
-                </div>
-                <div class="risk-item">
-                    <div class="risk-icon"><i class="fas fa-exchange-alt"></i></div>
-                    <h3>Exchange Failures</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Advanced Features</h2>
-                <p>BlocentraAI offers a comprehensive suite of tools to protect and grow your Bitcoin holdings</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
-                    <h3>AI Risk Assessment</h3>
-                    <p>Our proprietary AI algorithms continuously analyze thousands of data points to assess risk in real-time</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
-                    <h3>Instant Coverage</h3>
-                    <p>Get insured in seconds with our automated underwriting process and smart contract execution</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-lock"></i></div>
-                    <h3>Multi-Sig Security</h3>
-                    <p>Enterprise-grade security with multi-signature wallets and distributed key management</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
-                    <h3>Yield Optimization</h3>
-                    <p>AI-powered yield generation strategies that maximize returns while maintaining full insurance coverage</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
-                    <h3>Global Compliance</h3>
-                    <p>Built with regulatory compliance across multiple jurisdictions for institutional adoption</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Claim Automation</h3>
-                    <p>Instant, automated claim processing with AI verification and smart contract payouts</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="solution">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our AI-Powered Solution</h2>
-                <p>BlocentraAI combines cutting-edge artificial intelligence with Bitcoin-native architecture to deliver comprehensive protection</p>
-            </div>
-            <div class="solutions-grid">
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-brain"></i></div>
-                    <h3>AI-Powered Insurance</h3>
-                    <p>Dynamically priced, behavior-driven insurance policies covering wallets, smart contracts, and bridge transactions</p>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-bolt"></i></div>
-                    <h3>Real-Time Risk Intelligence</h3>
-                    <p>Continuous analysis of wallet activity, transaction patterns, and threat signals with instant alerts</p>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Predictive AI Risk Models</h3>
-                    <p>Advanced forecasting algorithms to anticipate systemic risks and black swan events</p>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-building"></i></div>
-                    <h3>Institutional-Grade Compliance</h3>
-                    <p>Transparent, auditable risk analytics and reporting tools for regulated entities</p>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-wallet"></i></div>
-                    <h3>Non-Custodial + Custodial Coverage</h3>
-                    <p>Flexible protection options that maintain user ownership and control of assets</p>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-icon"><i class="fas fa-globe"></i></div>
-                    <h3>Global Protection Infrastructure</h3>
-                    <p>Unified trust and safety standard for Bitcoin that aligns with regulatory frameworks worldwide</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="how-it-works">
-        <div class="container">
-            <div class="section-title">
-                <h2>How BlocentraAI Works</h2>
-                <p>Our seamless process integrates with your existing Bitcoin workflow to provide protection and yield opportunities</p>
-            </div>
-            <div class="process-flow">
-                <div class="process-step">
-                    <div class="step-icon"><i class="fas fa-wallet"></i></div>
-                    <h3>Connect Wallet</h3>
-                    <p>Securely connect your Bitcoin wallet</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-icon"><i class="fas fa-search"></i></div>
-                    <h3>Risk Analysis</h3>
-                    <p>AI engine analyzes your holdings and behavior</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Get Protected</h3>
-                    <p>Receive tailored insurance coverage</p>
-                </div>
-                <div class="process-step">
-                    <div class="step-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Earn Yield</h3>
-                    <p>Access insured yield opportunities</p>
-                </div>
-            </div>
-            <div class="process-tagline">
-                Retain ownership. Gain protection. Unlock yield.
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="business-model">
-        <div class="container">
-            <div class="section-title">
-                <h2>Sustainable Business Model</h2>
-                <p>Multiple revenue streams with strong unit economics and scalability</p>
-            </div>
-            <div class="revenue-model">
-                <div class="revenue-card">
-                    <div class="revenue-icon"><i class="fas fa-percentage"></i></div>
-                    <h3>Insurance Premium Fees</h3>
-                    <div class="revenue-percentage">1.5%</div>
-                    <p>Annual fee on insured assets</p>
-                </div>
-                <div class="revenue-card">
-                    <div class="revenue-icon"><i class="fas fa-hand-holding-usd"></i></div>
-                    <h3>Yield Generation Share</h3>
-                    <div class="revenue-percentage">15%</div>
-                    <p>Performance fee on generated yield</p>
-                </div>
-                <div class="revenue-card">
-                    <div class="revenue-icon"><i class="fas fa-chart-bar"></i></div>
-                    <h3>Enterprise API Access</h3>
-                    <p>Custom pricing for institutional clients and developers</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="customers">
-        <div class="container">
-            <div class="section-title">
-                <h2>Built For All Bitcoin Participants</h2>
-                <p>BlocentraAI serves a broad spectrum of customers across the Bitcoin ecosystem</p>
-            </div>
-            <div class="customers-grid">
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-user"></i></div>
-                    <h3>Retail HODLers</h3>
-                    <p>Individual investors seeking affordable protection and yield without relinquishing control</p>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-landmark"></i></div>
-                    <h3>Institutions</h3>
-                    <p>Hedge funds, ETFs, and asset managers requiring real-time risk analytics and compliance</p>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-vault"></i></div>
-                    <h3>Custodians</h3>
-                    <p>Service providers looking to embed insurance offerings and risk scoring into their platforms</p>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-exchange-alt"></i></div>
-                    <h3>Exchanges</h3>
-                    <p>Trading platforms requiring wallet reputation systems and fraud reduction tools</p>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-code"></i></div>
-                    <h3>DeFi Protocols</h3>
-                    <p>Developers building Bitcoin Layer 2 solutions needing reliable risk assessment</p>
-                </div>
-                <div class="customer-card">
-                    <div class="customer-icon"><i class="fas fa-gavel"></i></div>
-                    <h3>Regulators</h3>
-                    <p>Authorities seeking aggregated Bitcoin risk intelligence to inform policy decisions</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="team">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Expert Team</h2>
-                <p>Seasoned professionals with decades of experience in fintech, cybersecurity, and blockchain</p>
-            </div>
-            <div class="team-grid">
-    <div class="team-card">
-        <div class="team-image" style="display: flex; align-items: center; justify-content: center; background: var(--gradient-gold); overflow: hidden; border-radius: 50%;">
-            <img src="assets/riekgatluak.jpg" alt="Riek Gatluak Geka" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        <h3 class="team-name">Riek Gatluak Geka</h3>
-        <p class="team-role">CEO & Founder</p>
-        <p>AI Strategies, AI System Architecture, Blockchain Security</p>
-                    <div class="team-social">
-                        <a href="https://www.linkedin.com/in/riek-gatluak-geka-reat-047b57304" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://twitter.com/RiekGatlua78992" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://wa.me/211981211736" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://t.me/Riekgatluak" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-telegram"></i>
-                        </a>
+                <div class="about-content">
+                    <h3>A Tradition of Excellence Since 1998</h3>
+                    <p>Remanent Plumber was founded right here in Hamilton County with a simple mission: provide honest, high-quality plumbing services that our neighbors can rely on. What started as a small family operation has grown into one of the most trusted plumbing companies in Central Indiana — but we've never lost our small-town values.</p>
+                    <p>Every plumber on our team is background-checked, drug-tested, and undergoes continuous training to stay ahead of industry standards. We treat your home like our own, using only top-grade materials and proven techniques.</p>
+                    <div class="about-features">
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> Fully Licensed</div>
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> Bonded & Insured</div>
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> 24/7 Emergency</div>
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> Upfront Pricing</div>
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> 5-Star Rated</div>
+                        <div class="feature-chip"><i class="fa-solid fa-check-circle"></i> Satisfaction Guaranteed</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="luxury-divider"></div>
+    <!-- TRUST / CERTIFICATES -->
+    <div class="trust-section">
+        <div class="trust-track" id="trustTrack">
+            <div class="trust-item"><i class="fa-solid fa-certificate"></i> Licensed Master Plumber – State of Indiana</div>
+            <div class="trust-item"><i class="fa-solid fa-shield-virus"></i> Bonded & Fully Insured</div>
+            <div class="trust-item"><i class="fa-solid fa-award"></i> BBB Accredited – A+ Rating</div>
+            <div class="trust-item"><i class="fa-solid fa-medal"></i> Angi Super Service Award 2024</div>
+            <div class="trust-item"><i class="fa-solid fa-leaf"></i> EPA WaterSense Certified</div>
+            <div class="trust-item"><i class="fa-solid fa-hard-hat"></i> OSHA Safety Certified</div>
+        </div>
+    </div>
 
-    <section>
+    <!-- SERVICES -->
+    <section class="section" id="services">
         <div class="container">
-            <div class="section-title">
-                <h2>Massive Market Opportunity</h2>
-                <p>The crypto insurance market is projected to exceed $40+ billion by 2030</p>
+            <div class="section-header">
+                <span class="overline">What We Offer</span>
+                <h2>Our Professional Plumbing Services</h2>
+                <p>From routine maintenance to complex installations, we handle it all with precision and care.</p>
             </div>
-            <div class="market-stats">
-                <div class="big-stat">$1.2T BTC sit idle</div>
-                <div class="big-stat">$29B+</div>
-                <p>BTC Protected by 2029</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=600&q=80" alt="Drain Cleaning Service Hamilton County" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Drain Cleaning</h4>
+                        <p>High-pressure hydro jetting and professional snaking to clear even the toughest clogs. Fast, effective, and guaranteed.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Water Heater Installation" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Water Heater Installation & Repair</h4>
+                        <p>Tankless, gas, and electric water heater experts. Same-day replacement available. Hot water when you need it most.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" alt="Pipe Repair Services" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Pipe Repair & Replacement</h4>
+                        <p>Leaking pipes? Burst mains? We offer trenchless pipe repair and full repiping services with minimal disruption.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80" alt="Sewer Line Services" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Sewer Line Services</h4>
+                        <p>Camera inspections, sewer line repair, and replacement. We diagnose and fix sewer issues before they become disasters.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="Emergency Plumbing 24/7" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Emergency Plumbing 24/7</h4>
+                        <p>Plumbing emergencies don't wait for business hours. Our rapid-response team is ready day or night, 365 days a year.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Leak Detection Services" loading="lazy"></div>
+                    <div class="service-card-body">
+                        <h4>Leak Detection & Repair</h4>
+                        <p>Advanced acoustic and thermal imaging technology to pinpoint hidden leaks without destroying your walls or floors.</p>
+                        <a href="#contact" class="btn-service-quote">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="revenue-chart">
-                <div class="chart-bar" style="height: 15%;">
-                    <div class="chart-value">$4.6M</div>
-                    <div class="chart-label">Year 1</div>
+            <div class="btn-center-wrapper">
+                <a href="#services" class="btn-outline-gold">See Our Services <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" style="background: #f8f7f4;">
+        <div class="container">
+            <div class="section-header">
+                <span class="overline">Recent Work</span>
+                <h2>Our Latest Projects</h2>
+                <p>Take a look at some of the exceptional work we've completed across Hamilton County.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Bathroom plumbing remodel Carmel IN" loading="lazy">
+                    <div class="project-overlay"><span>Luxury Bathroom Remodel – Carmel</span></div>
                 </div>
-                <div class="chart-bar" style="height: 25%;">
-                    <div class="chart-value">$20.9M</div>
-                    <div class="chart-label">Year 2</div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80" alt="Water heater installation Fishers" loading="lazy">
+                    <div class="project-overlay"><span>Tankless Water Heater – Fishers</span></div>
                 </div>
-                <div class="chart-bar" style="height: 45%;">
-                    <div class="chart-value">$76.1M</div>
-                    <div class="chart-label">Year 3</div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=600&q=80" alt="Sewer line repair Noblesville" loading="lazy">
+                    <div class="project-overlay"><span>Sewer Line Replacement – Noblesville</span></div>
                 </div>
-                <div class="chart-bar" style="height: 70%;">
-                    <div class="chart-value">$184M</div>
-                    <div class="chart-label">Year 4</div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" alt="Kitchen plumbing Westfield" loading="lazy">
+                    <div class="project-overlay"><span>Kitchen Plumbing Upgrade – Westfield</span></div>
                 </div>
-                <div class="chart-bar" style="height: 100%;">
-                    <div class="chart-value">$430+M</div>
-                    <div class="chart-label">Year 5</div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80" alt="Drain cleaning Cicero" loading="lazy">
+                    <div class="project-overlay"><span>Commercial Drain System – Cicero</span></div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Pipe repair Arcadia IN" loading="lazy">
+                    <div class="project-overlay"><span>Whole-Home Repipe – Arcadia</span></div>
+                </div>
+            </div>
+            <div class="btn-center-wrapper">
+                <a href="#projects" class="btn-outline-gold">See Our Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE AREAS -->
+    <div class="areas-section" id="areas">
+        <div class="container">
+            <div class="section-header light">
+                <span class="overline" style="color:#efc068;">Where We Serve</span>
+                <h2>Proudly Serving Hamilton County & Beyond</h2>
+                <p>Our trucks are stationed throughout the county for rapid response times. Find your city below!</p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Carmel, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Fishers, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Noblesville, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Westfield, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Cicero, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Arcadia, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Atlanta, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Sheridan, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Strawtown, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> McCordsville, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Fortville, IN</div>
+                <div class="area-chip"><i class="fa-solid fa-map-pin"></i> Lapel, IN</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us-section">
+        <div class="container">
+            <div class="section-header light">
+                <span class="overline" style="color:#efc068;">Why Choose Remanent</span>
+                <h2>What Sets Us Apart</h2>
+                <p>We go above and beyond to deliver an unmatched plumbing experience every single time.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h4>24/7 Availability</h4>
+                    <p>Plumbing emergencies don't wait — and neither do we. Our team is on standby around the clock, ready to dispatch immediately.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-tag"></i></div>
+                    <h4>Transparent Pricing</h4>
+                    <p>No hidden fees, no surprises. We provide upfront flat-rate pricing so you know the cost before any work begins.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h4>Same-Day Service</h4>
+                    <p>Most calls are dispatched same-day. Our multiple Hamilton County locations mean we're always nearby.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <h4>100% Satisfaction</h4>
+                    <p>If you're not happy, we'll make it right. Every job is backed by our rock-solid satisfaction guarantee.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="luxury-divider"></div>
-
-    <section>
+    <!-- TESTIMONIALS -->
+    <section class="section" id="reviews">
         <div class="container">
-            <div class="section-title">
-                <h2>Why BlocentraAI Leads</h2>
-                <p>Our Bitcoin-native approach and AI integration create an unparalleled competitive advantage</p>
+            <div class="section-header">
+                <span class="overline">Client Testimonials</span>
+                <h2>What Our Customers Say</h2>
+                <p>Real reviews from real Hamilton County residents who trust Remanent Plumber.</p>
             </div>
-            <div class="comparison-container">
-                <table class="comparison-table">
-                    <tr>
-                        <th>Feature</th>
-                        <th>BlocentraAI</th>
-                        <th>Traditional Insurance</th>
-                        <th>Crypto Competitors</th>
-                    </tr>
-                    <tr>
-                        <td>Bitcoin-Native Architecture</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                        <td class="x-mark">✗</td>
-                    </tr>
-                    <tr>
-                        <td>AI-Powered Risk Scoring</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                        <td class="x-mark">Partial</td>
-                    </tr>
-                    <tr>
-                        <td>Real-Time Protection</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                        <td class="x-mark">✗</td>
-                    </tr>
-                    <tr>
-                        <td>Non-Custodial Solutions</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                        <td class="x-mark">Partial</td>
-                    </tr>
-                    <tr>
-                        <td>Regulatory Compliance</td>
-                        <td class="checkmark">✓</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                    </tr>
-                    <tr>
-                        <td>Yield Generation</td>
-                        <td class="checkmark">✓</td>
-                        <td class="x-mark">✗</td>
-                        <td class="x-mark">Partial</td>
-                    </tr>
-                </table>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Remanent Plumber saved the day when our water heater burst at 2 AM. They arrived within 45 minutes and had everything fixed by sunrise. Incredible service!"</p>
+                    <div class="author">Sarah Mitchell</div>
+                    <div class="author-location">Carmel, IN</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"We had a major sewer line issue and they handled it professionally from start to finish. The trenchless repair saved our landscaping. Highly recommend!"</p>
+                    <div class="author">David & Lisa Thornton</div>
+                    <div class="author-location">Fishers, IN</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Fair pricing, clean work, and genuinely nice people. They explained everything clearly and left the workspace spotless. My go-to plumber from now on."</p>
+                    <div class="author">Michael Chen</div>
+                    <div class="author-location">Noblesville, IN</div>
+                </div>
+            </div>
+            <div class="btn-center-wrapper">
+                <a href="#reviews" class="btn-outline-gold">See Our Reviews <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
 
-    <div class="luxury-divider"></div>
-
-    <section id="roadmap">
+    <!-- FAQS -->
+    <section class="section" id="faqs" style="background: #f8f7f4;">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Global Expansion Plan</h2>
-                <p>Strategic roadmap to become the global standard for Bitcoin risk intelligence</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2025 Q4 - Q1 2026</div>
-                    <div class="timeline-content">
-                        <h3>Launch & Local Validation</h3>
-                        <p>Establish operations in US, onboard beta testers, finalize partnership with exchange and hedge funds and institution across U.S</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2026 Q3 - 2026 Q4</div>
-                    <div class="timeline-content">
-                        <h3>EU + Asia Expansion</h3>
-                        <p>Enter Germany, France, Netherlands, Switzerland. Launch partnerships in Singapore, Vietnam, India</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2027 Q1 - 2027 Q2</div>
-                    <div class="timeline-content">
-                        <h3>Middle East</h3>
-                        <p>Expand to Middle East and Canada. Establish B2G pilots in UAE and Saudi Arabia</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2027 Q3+</div>
-                    <div class="timeline-content">
-                        <h3>Global Rollout</h3>
-                        <p>Expand to Latin America, Africa, and remaining Asia-Pacific markets</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="luxury-divider"></div>
-
-    <section id="faqs">
-        <div class="container">
-            <div class="section-title">
+            <div class="section-header">
+                <span class="overline">Got Questions?</span>
                 <h2>Frequently Asked Questions</h2>
-                <p>Get answers to the most common questions about BlocentraAI</p>
+                <p>Quick answers to common plumbing questions from our Hamilton County customers.</p>
             </div>
-            <div class="faq-container">
+            <div class="faq-list">
                 <div class="faq-item">
-                    <div class="faq-question">
-                        How does BlocentraAI's insurance work? <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Our insurance uses smart contracts to provide automatic coverage based on AI risk assessment. When you connect your wallet, our algorithms evaluate risk factors and provide real-time coverage that adjusts as market conditions change.</p>
-                    </div>
+                    <div class="faq-question">Do you offer emergency plumbing services in Hamilton County? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer"><p>Absolutely! We provide 24/7 emergency plumbing services throughout Hamilton County — including Carmel, Fishers, Noblesville, Westfield, and all surrounding areas. Our rapid-response team is always on standby.</p></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">
-                        Is BlocentraAI non-custodial? <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Yes, our core product is non-custodial, meaning you retain full control of your private keys and Bitcoin. We also offer custodial solutions for institutional clients who prefer that model.</p>
-                    </div>
+                    <div class="faq-question">Are you licensed and insured? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer"><p>Yes, Remanent Plumber is fully licensed by the State of Indiana, bonded, and carries comprehensive insurance coverage. All our plumbers are background-checked and certified professionals.</p></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">
-                        What makes your AI different from others? <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Our AI is specifically trained on Bitcoin transaction data, market patterns, and security threats. It incorporates machine learning models that continuously improve with more data, providing unparalleled risk assessment accuracy.</p>
-                    </div>
+                    <div class="faq-question">How quickly can you arrive for a service call? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer"><p>We pride ourselves on fast response times. Most calls within Hamilton County are serviced within 60-90 minutes. For emergencies, we prioritize immediate dispatch to get to you as quickly as possible.</p></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">
-                        How are claims processed? <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Claims are automatically processed through smart contracts when predefined conditions are met. Our AI verifies claims in real-time, and payouts are typically processed within hours rather than weeks.</p>
-                    </div>
+                    <div class="faq-question">Do you provide free estimates? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer"><p>Yes! We offer free, no-obligation estimates for all plumbing services. Simply give us a call or fill out our contact form, and we'll provide a transparent upfront quote before any work begins.</p></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">
-                        Is BlocentraAI regulated? <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>We are pursuing regulatory licenses in multiple jurisdictions including USA, Switzerland, and Singapore. Our compliance framework is designed to meet global standards for insurance and financial services.</p>
-                    </div>
+                    <div class="faq-question">What areas do you serve? <i class="fa-solid fa-plus"></i></div>
+                    <div class="faq-answer"><p>We serve all of Hamilton County and parts of surrounding counties. Major cities include Carmel, Fishers, Noblesville, Westfield, Cicero, Arcadia, Atlanta, Sheridan, and more.</p></div>
                 </div>
+            </div>
+            <div class="btn-center-wrapper">
+                <a href="#faqs" class="btn-outline-gold">See Our FAQs <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
 
-    <div class="luxury-divider"></div>
-
-    <section id="waitlist" class="waitlist-section">
+    <!-- BLOG -->
+    <section class="section" id="blog">
         <div class="container">
-            <div class="section-title">
-                <h2>Join The Waitlist</h2>
-                <p>Be among the first to access BlocentraAI's revolutionary Bitcoin protection platform</p>
+            <div class="section-header">
+                <span class="overline">Expert Tips</span>
+                <h2>Plumbing Insights & Advice</h2>
+                <p>Stay informed with the latest plumbing tips, trends, and how-to guides from our expert team.</p>
             </div>
-            
-            <div class="thank-you-message" id="thankYouMessage">
-                <div class="thank-you-icon">
-                    <i class="fas fa-check-circle"></i>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1542013936693-884638332954?w=600&q=80" alt="Prevent drain clogs" loading="lazy">
+                    <div class="blog-card-body">
+                        <span class="blog-date">Dec 18, 2024</span>
+                        <h4>5 Ways to Prevent Drain Clogs This Winter</h4>
+                        <p>Cold weather can wreak havoc on your plumbing. Learn simple preventative measures to keep your drains flowing freely all season long.</p>
+                    </div>
                 </div>
-                <h3>Thank You for Joining Our Waitlist!</h3>
-                <p>We'll be in touch soon with early access details. In the meantime, check out our MVP demo and whitepaper.</p>
-                <div class="hero-buttons" style="margin-top: 30px;">
-                    <a href="https://riek27.github.io/blocentraAIdemo/" target="_blank" class="demo-button">View MVP Demo</a>
-                    <a href="https://riek27.github.io/whitepaper/" target="_blank" class="secondary-button">View Whitepaper</a>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Water heater maintenance" loading="lazy">
+                    <div class="blog-card-body">
+                        <span class="blog-date">Nov 22, 2024</span>
+                        <h4>When Is It Time to Replace Your Water Heater?</h4>
+                        <p>Most water heaters last 8-12 years. Here are the telltale signs that yours might be due for an upgrade — and what options are available.</p>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Plumbing maintenance tips" loading="lazy">
+                    <div class="blog-card-body">
+                        <span class="blog-date">Oct 30, 2024</span>
+                        <h4>Essential Fall Plumbing Checklist for Indiana Homes</h4>
+                        <p>Before winter hits Hamilton County hard, make sure your plumbing is ready. Our comprehensive checklist covers everything you need to know.</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="form-container" id="waitlistFormContainer">
-                <div class="form-title">
-                    <h3>Get Early Access</h3>
-                    <p>Join our exclusive waitlist for priority access</p>
+            <div class="btn-center-wrapper">
+                <a href="#blog" class="btn-outline-gold">See Our Blog <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="section-header light">
+                <span class="overline" style="color:#efc068;">Get In Touch</span>
+                <h2>Contact Remanent Plumber</h2>
+                <p>Ready to experience the best plumbing service in Hamilton County? Reach out today!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Whether you have an emergency, need a quote, or just have a question — our friendly team is here to help. We serve all of Hamilton County with pride.</p>
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div><strong>Location</strong><span>123 Main Street, Noblesville, IN 46060<br>Serving all Hamilton County</span></div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <div><strong>Phone</strong><span>(317) 555-0198</span></div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div><strong>Email</strong><span>info@remanentplumber.com</span></div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fa-solid fa-clock"></i>
+                        <div><strong>Hours</strong><span>24/7 — Including Weekends & Holidays</span></div>
+                    </div>
                 </div>
-                <form id="waitlistForm">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="bitcoinAddress">Bitcoin Address (Optional)</label>
-                        <input type="text" id="bitcoinAddress" name="bitcoinAddress" placeholder="Enter your Bitcoin address">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="walletType">Primary Wallet Type</label>
-                        <select id="walletType" name="walletType" required>
-                            <option value="" disabled selected>Select your wallet type</option>
-                            <option value="native">Native (Bitcoin Core, etc.)</option>
-                            <option value="custodial">Custodial (Exchange wallets)</option>
-                            <option value="hardware">Hardware Wallet</option>
-                            <option value="mobile">Mobile Wallet</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="btcAmount">Approximate BTC Holdings (Optional)</label>
-                        <input type="number" id="btcAmount" name="btcAmount" min="0" step="0.001" placeholder="0.00">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Additional Information (Optional)</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your specific needs or questions"></textarea>
-                    </div>
-                    
-                    <div class="form-submit">
-                        <button type="submit" class="cta-button">Join Waitlist</button>
-                    </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="" disabled selected>Select Service Needed</option>
+                        <option>Drain Cleaning</option>
+                        <option>Water Heater Installation & Repair</option>
+                        <option>Pipe Repair & Replacement</option>
+                        <option>Sewer Line Services</option>
+                        <option>Emergency Plumbing</option>
+                        <option>Leak Detection</option>
+                        <option>Other / General Inquiry</option>
+                    </select>
+                    <textarea placeholder="Tell us about your plumbing needs..."></textarea>
+                    <button type="submit">Send Message & Get Quote <i class="fa-solid fa-paper-plane"></i></button>
                 </form>
             </div>
         </div>
     </section>
 
-    <div class="luxury-divider"></div>
-
-    <section>
+    <!-- FOOTER -->
+    <footer class="footer">
         <div class="container">
-            <div class="cta-section">
-                <h2>Be Part of the Bitcoin Trust Layer</h2>
-                <p>Join our early access program or explore investment opportunities</p>
-                <div class="cta-buttons">
-                    <button class="cta-button" id="bottomCta">Join Beta Program</button>
-                    <a href="https://riek27.github.io/investor-deck/" target="_blank" rel="noopener noreferrer" class="secondary-button">Request Investor Deck</a>
-                </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#areas">Service Areas</a>
+                <a href="#faqs">FAQs</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
             </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>BlocentraAI</h3>
-                    <p>Securing the future of Bitcoin with AI-powered insurance and risk intelligence solutions.</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-telegram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA HQ (Planned)</p>
-                    <p><i class="fas fa-envelope"></i> info@blocentra.ai</p>
-                    <p><i class="fas fa-phone"></i> +1 (415) 5********</p>
-                    <p><i class="fab fa-whatsapp"></i> WhatsApp Business</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Resources</h3>
-                    <a href="https://riek27.github.io/whitepaper/" target="_blank">Whitepaper</a>
-                    <a href="#">Documentation</a>
-                    <a href="https://riek27.github.io/blocentraAIdemo/" target="_blank">MVP Demo</a>
-                    <a href="#">API Access</a>
-                    <a href="#">GitHub</a>
-                </div>
-                <div class="footer-column">
-                    <h3>Legal</h3>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Compliance</a>
-                    <a href="#">Insurance Licenses</a>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2025 BlocentraAI. All rights reserved.</p>
-            </div>
+            <p>&copy; 2026 <a href="#">Remanent Plumber</a>. All Rights Reserved. | Proudly Serving Hamilton County, Indiana | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <p style="margin-top:4px;">Licensed Master Plumber – State of Indiana | Bonded & Insured | 24/7 Emergency Service</p>
         </div>
     </footer>
 
-    <!-- Chatbot Widget -->
-    <div class="chatbot-container" id="chatbotContainer">
-        <div class="chatbot-header">
-            <div class="chatbot-title">
-                <i class="fas fa-robot"></i>
-                <h3>BlocentraAI Assistant</h3>
-            </div>
-            <div class="close-chatbot" id="closeChatbot">
-                <i class="fas fa-times"></i>
-            </div>
-        </div>
-        <div class="chatbot-messages" id="chatbotMessages">
-            <div class="message bot-message">
-                <p>Hello! I'm BlocentraAI Assistant. How can I help you with Bitcoin insurance today?</p>
-            </div>
-        </div>
-        <div class="chatbot-input">
-            <input type="text" id="chatbotInput" placeholder="Type your message here...">
-            <button id="sendMessageBtn">
-                <i class="fas fa-paper-plane"></i>
-            </button>
-        </div>
-    </div>
-    
-    <div class="chatbot-widget" id="chatbotWidget">
-        <i class="fas fa-comment-alt"></i>
-    </div>
-
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize Three.js scene
-            function initThreeJS() {
-                const container = document.getElementById('three-js-container');
-                const scene = new THREE.Scene();
-                const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-                const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
-                renderer.setSize(window.innerWidth, window.innerHeight);
-                container.appendChild(renderer.domElement);
+        // Sticky nav
+        const navWrapper = document.getElementById('navWrapper');
+        window.addEventListener('scroll', () => {
+            navWrapper.classList.toggle('scrolled', window.scrollY > 40);
+        });
 
-                // Add ambient light
-                const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-                scene.add(ambientLight);
+        // Mobile menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
 
-                // Add directional light
-                const directionalLight = new THREE.DirectionalLight(0xffd700, 1);
-                directionalLight.position.set(5, 5, 5);
-                scene.add(directionalLight);
-
-                // Create Bitcoin symbol geometry
-                const geometry = new THREE.TorusGeometry(2, 0.5, 16, 100);
-                const material = new THREE.MeshPhongMaterial({ 
-                    color: 0xd4af37,
-                    shininess: 100,
-                    specular: 0xffee00
-                });
-                
-                const bitcoinSymbol = new THREE.Mesh(geometry, material);
-                scene.add(bitcoinSymbol);
-
-                // Add floating particles
-                const particlesGeometry = new THREE.BufferGeometry();
-                const particlesCount = 500;
-                
-                const posArray = new Float32Array(particlesCount * 3);
-                for(let i = 0; i < particlesCount * 3; i++) {
-                    posArray[i] = (Math.random() - 0.5) * 20;
-                }
-                
-                particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-                const particlesMaterial = new THREE.PointsMaterial({
-                    size: 0.05,
-                    color: 0xd4af37
-                });
-                
-                const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
-                scene.add(particlesMesh);
-
-                camera.position.z = 5;
-
-                // Animation
-                function animate() {
-                    requestAnimationFrame(animate);
-                    
-                    bitcoinSymbol.rotation.x += 0.005;
-                    bitcoinSymbol.rotation.y += 0.005;
-                    
-                    particlesMesh.rotation.y += 0.001;
-                    
-                    renderer.render(scene, camera);
-                }
-                
-                animate();
-
-                // Handle window resize
-                window.addEventListener('resize', () => {
-                    camera.aspect = window.innerWidth / window.innerHeight;
-                    camera.updateProjectionMatrix();
-                    renderer.setSize(window.innerWidth, window.innerHeight);
-                });
-            }
-
-            // Initialize Three.js
-            initThreeJS();
-
-            // Create gold particles in background
-            function createGoldParticles() {
-                const container = document.querySelector('.luxury-bg');
-                const particleCount = 50;
-                
-                for (let i = 0; i < particleCount; i++) {
-                    const particle = document.createElement('div');
-                    particle.classList.add('gold-particle');
-                    
-                    // Random position
-                    const posX = Math.random() * 100;
-                    const posY = Math.random() * 100;
-                    particle.style.left = `${posX}%`;
-                    particle.style.top = `${posY}%`;
-                    
-                    // Random size
-                    const size = Math.random() * 6 + 2;
-                    particle.style.width = `${size}px`;
-                    particle.style.height = `${size}px`;
-                    
-                    // Random animation
-                    const duration = Math.random() * 10 + 5;
-                    const delay = Math.random() * 5;
-                    particle.style.animation = `float ${duration}s ease-in-out ${delay}s infinite`;
-                    
-                    container.appendChild(particle);
-                }
-            }
-            
-            createGoldParticles();
-
-            // Header scroll effect
-            const header = document.querySelector('header');
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
-                    header.classList.add('scrolled');
-                } else {
-                    header.classList.remove('scrolled');
-                }
-            });
-
-            // Mobile menu toggle
-            const menuToggle = document.getElementById('menuToggle');
-            const mainNav = document.getElementById('mainNav');
-            
-            menuToggle.addEventListener('click', function() {
-                mainNav.classList.toggle('active');
-                menuToggle.classList.toggle('active');
-            });
-
-            // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
+        // Mobile dropdown toggle
+        document.querySelectorAll('.nav-links > li > a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (window.innerWidth <= 1100 && this.nextElementSibling && this.nextElementSibling.classList.contains(
+                        'dropdown')) {
                     e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                        
-                        if (mainNav.classList.contains('active')) {
-                            mainNav.classList.remove('active');
-                            menuToggle.classList.remove('active');
-                        }
-                    }
-                });
+                    this.parentElement.classList.toggle('open');
+                }
             });
+        });
 
-            // Waitlist form submission
-            const waitlistForm = document.getElementById('waitlistForm');
-            const waitlistFormContainer = document.getElementById('waitlistFormContainer');
-            const thankYouMessage = document.getElementById('thankYouMessage');
-            
-            if (waitlistForm) {
-                waitlistForm.addEventListener('submit', function(e) {
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 1100) {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                }
+            });
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                const isOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(f => f.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
+            });
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> Message Sent!';
+                btn.style.background = '#22c55e';
+                btn.style.color = '#fff';
+                this.reset();
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.style.background = '';
+                    btn.style.color = '';
+                    btn.disabled = false;
+                }, 3000);
+            }, 1500);
+        });
+
+        // Duplicate trust track for infinite scroll
+        const trustTrack = document.getElementById('trustTrack');
+        trustTrack.innerHTML += trustTrack.innerHTML;
+
+        // Smooth scroll for all anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                const target = document.querySelector(href);
+                if (target) {
                     e.preventDefault();
-                    
-                    waitlistFormContainer.style.display = 'none';
-                    thankYouMessage.style.display = 'block';
-                    thankYouMessage.classList.add('fade-in');
-                    
-                    waitlistForm.reset();
-                });
-            }
-
-            // CTA buttons
-            const ctaButtons = document.querySelectorAll('.cta-button:not([type="submit"])');
-            ctaButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' });
-                });
-            });
-
-            // FAQ accordion
-            const faqItems = document.querySelectorAll('.faq-item');
-            faqItems.forEach(item => {
-                const question = item.querySelector('.faq-question');
-                question.addEventListener('click', () => {
-                    faqItems.forEach(otherItem => {
-                        if (otherItem !== item) {
-                            otherItem.classList.remove('active');
-                        }
-                    });
-                    
-                    item.classList.toggle('active');
-                });
-            });
-
-            // Initialize GSAP animations
-            gsap.registerPlugin(ScrollTrigger);
-            
-            // Animate elements on scroll
-            gsap.utils.toArray('.solution-card, .customer-card, .stat-card, .risk-item, .process-step, .timeline-content, .feature-card, .revenue-card, .team-card').forEach(item => {
-                gsap.fromTo(item, 
-                    {
-                        opacity: 0,
-                        y: 50
-                    },
-                    {
-                        opacity: 1,
-                        y: 0,
-                        duration: 1,
-                        scrollTrigger: {
-                            trigger: item,
-                            start: 'top 85%',
-                            toggleActions: 'play none none none'
-                        }
-                    }
-                );
-            });
-
-            // Animate section titles
-            gsap.utils.toArray('.section-title').forEach(title => {
-                gsap.fromTo(title, 
-                    {
-                        opacity: 0,
-                        y: 30
-                    },
-                    {
-                        opacity: 1,
-                        y: 0,
-                        duration: 1,
-                        scrollTrigger: {
-                            trigger: title,
-                            start: 'top 90%',
-                            toggleActions: 'play none none none'
-                        }
-                    }
-                );
-            });
-
-            // Chatbot functionality
-            const chatbotWidget = document.getElementById('chatbotWidget');
-            const chatbotContainer = document.getElementById('chatbotContainer');
-            const closeChatbot = document.getElementById('closeChatbot');
-            const chatbotMessages = document.getElementById('chatbotMessages');
-            const chatbotInput = document.getElementById('chatbotInput');
-            const sendMessageBtn = document.getElementById('sendMessageBtn');
-            
-            // Initially hide the chatbot container
-            chatbotContainer.style.display = 'none';
-            
-            // Toggle chatbot visibility
-            chatbotWidget.addEventListener('click', function() {
-                if (chatbotContainer.style.display === 'none') {
-                    chatbotContainer.style.display = 'flex';
-                    chatbotInput.focus();
-                } else {
-                    chatbotContainer.style.display = 'none';
+                    const offset = 80;
+                    const position = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: position, behavior: 'smooth' });
                 }
             });
-            
-            // Close chatbot
-            closeChatbot.addEventListener('click', function() {
-                chatbotContainer.style.display = 'none';
-            });
-            
-            // Send message function
-            function sendMessage() {
-                const message = chatbotInput.value.trim();
-                if (message) {
-                    // Add user message
-                    addMessage(message, 'user');
-                    
-                    // Clear input
-                    chatbotInput.value = '';
-                    
-                    // Simulate bot response after a short delay
-                    setTimeout(() => {
-                        const botResponse = generateBotResponse(message);
-                        addMessage(botResponse, 'bot');
-                    }, 1000);
-                }
-            }
-            
-            // Add message to chat
-            function addMessage(text, sender) {
-                const messageElem = document.createElement('div');
-                messageElem.classList.add('message', sender + '-message');
-                messageElem.innerHTML = `<p>${text}</p>`;
-                chatbotMessages.appendChild(messageElem);
-                
-                // Scroll to bottom
-                chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
-            }
-            
-            // Send message on button click
-            sendMessageBtn.addEventListener('click', sendMessage);
-            
-            // Send message on Enter key
-            chatbotInput.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    sendMessage();
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const top = section.offsetTop - 100;
+                if (window.scrollY >= top) {
+                    current = section.getAttribute('id');
                 }
             });
-            
-            // Simple response generator
-            function generateBotResponse(message) {
-                const lowerMessage = message.toLowerCase();
-                
-                if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
-                    return "Hello! How can I assist you with Bitcoin insurance today?";
-                } else if (lowerMessage.includes('insurance') || lowerMessage.includes('cover')) {
-                    return "We offer comprehensive Bitcoin insurance against hacks, scams, and technical failures. Our coverage includes up to $5 million per incident.";
-                } else if (lowerMessage.includes('price') || lowerMessage.includes('cost') || lowerMessage.includes('fee')) {
-                    return "Our insurance premiums start at 1.5% annually of the insured amount. The exact rate depends on your risk profile and coverage needs.";
-                } else if (lowerMessage.includes('claim') || lowerMessage.includes('process')) {
-                    return "The claims process is fully automated. In case of a verified incident, payouts are processed within 24 hours through smart contracts.";
-                } else if (lowerMessage.includes('bitcoin') || lowerMessage.includes('btc')) {
-                    return "We specialize in Bitcoin insurance and risk management. Our AI-powered system monitors threats in real-time to protect your assets.";
-                } else if (lowerMessage.includes('thank')) {
-                    return "You're welcome! Is there anything else you'd like to know about Bitcoin insurance?";
-                } else {
-                    return "Thank you for your message. I'm specialized in Bitcoin insurance. Could you tell me more about what you're looking to protect?";
+            document.querySelectorAll('.nav-links > li > a').forEach(a => {
+                a.classList.remove('active');
+                if (a.getAttribute('href') === '#' + current) {
+                    a.classList.add('active');
                 }
-            }
+            });
         });
     </script>
 </body>
